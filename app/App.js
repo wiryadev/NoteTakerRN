@@ -9,11 +9,8 @@
 import React from 'react';
 import Home from './components/Home/Home.component';
 
-
 const App = () => {
-  return (
-    <Home />
-  );
+  return <Home />;
 };
 
 export default App;

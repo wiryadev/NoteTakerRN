@@ -7,9 +7,13 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint app/",
+    "lint:fix": "eslint app/ --fix"
   },
   "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-native": "^4.0.0",
     "react": "18.1.0",
     "react-native": "0.70.2"
   },
